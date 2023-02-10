@@ -1,0 +1,41 @@
+@import "./root.scss";
+
+.form-add {
+  margin: 80px auto;
+  padding: 40px 24px;
+  border-radius: 5px;
+  width: 350px;
+  background-color: antiquewhite;
+  .form-control {
+    margin-bottom: 20px;
+    label {
+      display: block;
+      font-size: 16px;
+      font-weight: 500;
+      padding-bottom: 5px;
+    }
+    input {
+      padding: 10px 16px;
+      width: 100%;
+      font-size: 18px;
+      border-radius: 5px;
+      border: 1px solid #919191;
+      outline: none;
+    }
+  }
+  .save {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid #919191;
+    button {
+      width: 100%;
+      padding: 16px;
+      border-radius: 5px;
+      background: var(--green);
+      border: none;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+  }
+}

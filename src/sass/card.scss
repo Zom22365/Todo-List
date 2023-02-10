@@ -1,0 +1,18 @@
+@import "./root.scss";
+.card {
+  width: 100%;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  .block-check {
+    margin-right: 32px;
+    .check {
+      scale: (1.8);
+    }
+  }
+  .name-todo {
+    font-size: 16px;
+    padding-top: 5px;
+  }
+}
